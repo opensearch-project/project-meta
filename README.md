@@ -1,9 +1,13 @@
 <img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg" height="64px"/>
 
 - [Meta](#meta)
+  - [Install GitHub CLI](#install-github-cli)
   - [Install Meta](#install-meta)
-  - [Use Meta](#use-meta)
-  - [Updating Repos](#updating-repos)
+  - [Check Out Repos](#check-out-repos)
+  - [Get Repo Info](#get-repo-info)
+  - [Add a New Repo](#add-a-new-repo)
+  - [Create or Update Labels in All Repos](#create-or-update-labels-in-all-repos)
+  - [Create an Issue in All Repos](#create-an-issue-in-all-repos)
 - [Contributing](#contributing)
 - [Security](#security)
 - [Code of Conduct](#code-of-conduct)
@@ -14,31 +18,66 @@
 
 This project uses [meta](https://github.com/mateodelnorte/meta) to operate on all the repositories in the [opensearch-project organization](https://github.com/opensearch-project/).
 
+### Install GitHub CLI
+
+Install and configure GitHub CLI from [cli.github.com/manual/installation](https://cli.github.com/manual/installation). Authenticate with `gh auth login` and ensure that it works, e.g. `gh issue list`.
+
 ### Install Meta
 
-```
+```sh
 npm install -g meta
 ```
 
-### Use Meta
+### Check Out Repos
 
-```
+```sh
 meta git update
 ```
 
-Subsequently, use `meta git pull` to update all repos.
+Use `meta git pull` to subsequently pull the latest revisions.
 
-### Updating Repos
+### Get Repo Info
 
-Meta stores a list of repositories in [.meta](.meta). You can bulk update this file as follows.
+```sh
+meta gh issue list
+```
+
+### Add a New Repo
+
+```sh
+meta project import new-repo git@github.com:opensearch-project/new-repo.git
+```
+
+Meta stores a list of repositories in [.meta](.meta). You can bulk update this file from the opensearch-project org as follows.
 
 ```
 ./scripts/update.sh
 ```
 
-This script requires aa working copy of [GitHub CLI](https://github.com/cli/cli), installed via `brew install gh` on OSX.
+### Create or Update Labels in All Repos
 
-If a new repo is added, run `meta project import [repo] [git]`.
+Install [ghi](https://github.com/stephencelis/ghi), e.g. `brew install ghi`.
+
+```
+meta exec "ghi label 'backwards-compatibility' -c '#773AA8'
+```
+
+This makes it easy to create version labels.
+
+```
+meta exec "ghi label 'untriaged' -c '#fbca04'"
+meta exec "ghi label 'v1.0.0' -c '#d4c5f9'"
+meta exec "ghi label 'v1.1.0' -c '#c5def5'"
+meta exec "ghi label 'v2.0.0' -c '#b94c47'"
+```
+
+### Create an Issue in All Repos
+
+Create a file for the issue body, e.g. `issue.md`.
+
+```
+meta exec "gh issue create --label backwards-compatibility --title 'Ensure backwards compatibility' --body-file ../issue.md"
+```
 
 ## Contributing
 
