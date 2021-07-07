@@ -8,6 +8,7 @@
   - [Add a New Repo](#add-a-new-repo)
   - [Create or Update Labels in All Repos](#create-or-update-labels-in-all-repos)
   - [Create an Issue in All Repos](#create-an-issue-in-all-repos)
+  - [Find Labeled Issues](#find-labeled-issues)
 - [Contributing](#contributing)
 - [Security](#security)
 - [Code of Conduct](#code-of-conduct)
@@ -78,6 +79,20 @@ Create a file for the issue body, e.g. `issue.md`.
 
 ```
 meta exec "gh issue create --label backwards-compatibility --title 'Ensure backwards compatibility' --body-file ../issue.md"
+```
+
+### Find Labeled Issues
+
+Find all issues labeled `v1.0.0`.
+
+```
+meta exec "gh issue list -l 'v1.0.0'"
+```
+
+How many are left?
+
+```
+meta exec "gh issue list -l 'v1.0.0'" | wc -l
 ```
 
 ## Contributing
