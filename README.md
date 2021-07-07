@@ -1,26 +1,52 @@
 <img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg" height="64px"/>
 
-- [Welcome!](#welcome)
-- [Project Resources](#project-resources)
+- [Meta](#meta)
+  - [Install Meta](#install-meta)
+  - [Use Meta](#use-meta)
+  - [Updating Repos](#updating-repos)
+- [Contributing](#contributing)
+- [Security](#security)
 - [Code of Conduct](#code-of-conduct)
 - [License](#license)
 - [Copyright](#copyright)
 
-## Welcome!
+## Meta
 
-**OpenSearch** is [a community-driven, open source fork](https://aws.amazon.com/blogs/opensource/introducing-opensearch/) of [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch) and [Kibana](https://en.wikipedia.org/wiki/Kibana) licensed under the [Apache v2.0 License](LICENSE.txt). For more information, see [opensearch.org](https://opensearch.org/).
+This project uses [meta](https://github.com/mateodelnorte/meta) to operate on all the repositories in the [opensearch-project organization](https://github.com/opensearch-project/).
 
-## Project Resources
+### Install Meta
 
-* [Project Website](https://opensearch.org/)
-* [Downloads](https://opensearch.org/downloads.html).
-* [Documentation](https://docs-beta.opensearch.org/)
-* Need help? Try [Forums](https://discuss.opendistrocommunity.dev/)
-* [Project Principles](https://opensearch.org/#principles)
-* [Contributing to OpenSearch](CONTRIBUTING.md)
-* [Maintainer Responsibilities](MAINTAINERS.md)
-* [Admin Responsibilities](ADMINS.md)
-* [Security](SECURITY.md)
+```
+npm install -g meta
+```
+
+### Use Meta
+
+```
+meta git update
+```
+
+Subsequently, use `meta git pull` to update all repos.
+
+### Updating Repos
+
+Meta stores a list of repositories in [.meta](.meta). You can bulk update this file as follows.
+
+```
+./scripts/update.sh
+```
+
+This script requires aa working copy of [GitHub CLI](https://github.com/cli/cli), installed via `brew install gh` on OSX.
+
+If a new repo is added, run `meta project import [repo] [git]`.
+
+## Contributing
+
+Please contribute! See [CONTRIBUTING](CONTRIBUTING.md), [Maintainer](MAINTAINERS.md) and [Admin Responsibilities](ADMINS.md) for more information.
+
+## Security
+
+See [Security](SECURITY.md)
 
 ## Code of Conduct
 
