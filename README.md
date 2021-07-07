@@ -69,6 +69,7 @@ meta exec "ghi label 'untriaged' -c '#fbca04'"
 meta exec "ghi label 'v1.0.0' -c '#d4c5f9'"
 meta exec "ghi label 'v1.1.0' -c '#c5def5'"
 meta exec "ghi label 'v2.0.0' -c '#b94c47'"
+meta exec "ghi label 'patch' -c '#dd8e2c'"
 ```
 
 ### Create an Issue in All Repos
