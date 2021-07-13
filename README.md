@@ -9,6 +9,7 @@
   - [Create or Update Labels in All Repos](#create-or-update-labels-in-all-repos)
   - [Create an Issue in All Repos](#create-an-issue-in-all-repos)
   - [Find Labeled Issues](#find-labeled-issues)
+  - [Check Tags](#check-tags)
 - [Contributing](#contributing)
 - [Security](#security)
 - [Code of Conduct](#code-of-conduct)
@@ -93,6 +94,21 @@ How many are left?
 
 ```
 meta exec "gh issue list -l 'v1.0.0'" | wc -l
+```
+
+### Check Tags
+
+Find out whether 1.0.0 tag exists in all repos.
+
+```
+meta exec "git ls-remote | grep -w 'refs/tags/1.0.0$' || echo missing"
+```
+
+Or using local tags.
+
+```
+meta git pull --tags
+meta exec "git tag | grep -w '^1.0.0$' || echo missing"
 ```
 
 ## Contributing
