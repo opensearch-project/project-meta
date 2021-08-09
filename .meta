@@ -33,6 +33,7 @@
     "sql": "git@github.com:opensearch-project/sql.git",
     "trace-analytics": "git@github.com:opensearch-project/trace-analytics.git",
     "opensearch-plugin-template-java": "git@github.com:opensearch-project/opensearch-plugin-template-java.git",
-    "project-meta": "git@github.com:opensearch-project/project-meta.git"
+    "project-meta": "git@github.com:opensearch-project/project-meta.git",
+    "geospatial": "git@github.com:opensearch-project/geospatial.git"
   }
 }
