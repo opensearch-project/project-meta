@@ -1,0 +1,32 @@
+name: Check for new Project Repos
+
+on:
+  push:
+    branches:
+      - main  
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  check-project-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update project repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
+        run: |
+          npm install -g meta
+          ./scripts/update.sh
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Added newly created repositories.
+          delete-branch: true
+          title: 'Added any newly created repositories.'
+          body: |
+            Added any missing repositories.
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
