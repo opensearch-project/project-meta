@@ -18,14 +18,15 @@ jobs:
         run: |
           npm install -g meta
           ./scripts/update.sh
+          echo REPOS_ADDED=$(git diff --unified=0 .gitignore | grep '+/' | cut -f2 -d'/' | paste -sd ',' - | sed "s/,/, /g" | sed 's/\(.*\),/\1 and/') >> $GITHUB_ENV
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: Added newly created repositories.
+          commit-message: Added ${{ env.REPOS_ADDED }}.
           delete-branch: true
-          title: 'Added any newly created repositories.'
+          title: 'Added ${{ env.REPOS_ADDED }}.'
           body: |
-            Added any missing repositories.
+            Added ${{ env.REPOS_ADDED }}.
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
