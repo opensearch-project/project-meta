@@ -34,6 +34,7 @@
     "trace-analytics": "git@github.com:opensearch-project/trace-analytics.git",
     "opensearch-plugin-template-java": "git@github.com:opensearch-project/opensearch-plugin-template-java.git",
     "project-meta": "git@github.com:opensearch-project/project-meta.git",
-    "geospatial": "git@github.com:opensearch-project/geospatial.git"
+    "geospatial": "git@github.com:opensearch-project/geospatial.git",
+    "cross-cluster-replication": "git@github.com:opensearch-project/cross-cluster-replication.git"
   }
 }
