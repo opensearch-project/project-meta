@@ -35,6 +35,8 @@
     "opensearch-plugin-template-java": "git@github.com:opensearch-project/opensearch-plugin-template-java.git",
     "project-meta": "git@github.com:opensearch-project/project-meta.git",
     "geospatial": "git@github.com:opensearch-project/geospatial.git",
-    "cross-cluster-replication": "git@github.com:opensearch-project/cross-cluster-replication.git"
+    "cross-cluster-replication": "git@github.com:opensearch-project/cross-cluster-replication.git",
+    "opensearch-go": "git@github.com:opensearch-project/opensearch-go.git",
+    "opensearch-java": "git@github.com:opensearch-project/opensearch-java.git"
   }
 }
