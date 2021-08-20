@@ -37,6 +37,7 @@
     "geospatial": "git@github.com:opensearch-project/geospatial.git",
     "cross-cluster-replication": "git@github.com:opensearch-project/cross-cluster-replication.git",
     "opensearch-go": "git@github.com:opensearch-project/opensearch-go.git",
-    "opensearch-java": "git@github.com:opensearch-project/opensearch-java.git"
+    "opensearch-java": "git@github.com:opensearch-project/opensearch-java.git",
+    "opensearch-py": "git@github.com:opensearch-project/opensearch-py.git"
   }
 }
