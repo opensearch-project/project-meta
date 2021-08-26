@@ -39,6 +39,7 @@
     "opensearch-go": "git@github.com:opensearch-project/opensearch-go.git",
     "opensearch-java": "git@github.com:opensearch-project/opensearch-java.git",
     "opensearch-py": "git@github.com:opensearch-project/opensearch-py.git",
-    "opensearch-js": "git@github.com:opensearch-project/opensearch-js.git"
+    "opensearch-js": "git@github.com:opensearch-project/opensearch-js.git",
+    "helm-charts": "git@github.com:opensearch-project/helm-charts.git"
   }
 }
