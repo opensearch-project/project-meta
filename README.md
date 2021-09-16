@@ -87,13 +87,13 @@ meta exec "gh issue create --label backwards-compatibility --title 'Ensure backw
 Find all issues labeled `v1.0.0`.
 
 ```
-meta exec "gh issue list -l 'v1.0.0'"
+meta exec "gh issue list -l v1.0.0"
 ```
 
 How many are left?
 
 ```
-meta exec "gh issue list -l 'v1.0.0'" | wc -l
+meta exec "gh issue list -l v1.0.0" | wc -l
 ```
 
 ### Check Tags
