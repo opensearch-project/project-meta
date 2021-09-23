@@ -41,6 +41,8 @@
     "opensearch-py": "git@github.com:opensearch-project/opensearch-py.git",
     "opensearch-js": "git@github.com:opensearch-project/opensearch-js.git",
     "helm-charts": "git@github.com:opensearch-project/helm-charts.git",
-    "ansible-playbook": "git@github.com:opensearch-project/ansible-playbook.git"
+    "ansible-playbook": "git@github.com:opensearch-project/ansible-playbook.git",
+    "opensearch-dashboards-functional-test": "git@github.com:opensearch-project/opensearch-dashboards-functional-test.git",
+    "opensearch-dashboards-test-library": "git@github.com:opensearch-project/opensearch-dashboards-test-library.git"
   }
 }
