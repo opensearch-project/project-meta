@@ -108,3 +108,4 @@
 /ansible-playbook/
 /opensearch-dashboards-functional-test/
 /opensearch-dashboards-test-library/
+/opensearch-ci/
