@@ -48,6 +48,8 @@
     "project-website-search": "git@github.com:opensearch-project/project-website-search.git",
     "opensearch-dsl-py": "git@github.com:opensearch-project/opensearch-dsl-py.git",
     "opensearch-clients": "git@github.com:opensearch-project/opensearch-clients.git",
-    "opensearch-rs": "git@github.com:opensearch-project/opensearch-rs.git"
+    "opensearch-rs": "git@github.com:opensearch-project/opensearch-rs.git",
+    "opensearch-php": "git@github.com:opensearch-project/opensearch-php.git",
+    "opensearch-ruby": "git@github.com:opensearch-project/opensearch-ruby.git"
   }
 }
