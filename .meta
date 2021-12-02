@@ -50,6 +50,7 @@
     "opensearch-clients": "git@github.com:opensearch-project/opensearch-clients.git",
     "opensearch-rs": "git@github.com:opensearch-project/opensearch-rs.git",
     "opensearch-php": "git@github.com:opensearch-project/opensearch-php.git",
-    "opensearch-ruby": "git@github.com:opensearch-project/opensearch-ruby.git"
+    "opensearch-ruby": "git@github.com:opensearch-project/opensearch-ruby.git",
+    "ml-commons": "git@github.com:opensearch-project/ml-commons.git"
   }
 }
