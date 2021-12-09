@@ -116,3 +116,5 @@
 /opensearch-php/
 /opensearch-ruby/
 /ml-commons/
+/opensearch-benchmark/
+/opensearch-benchmark-workloads/
