@@ -53,6 +53,7 @@
     "opensearch-ruby": "git@github.com:opensearch-project/opensearch-ruby.git",
     "ml-commons": "git@github.com:opensearch-project/ml-commons.git",
     "opensearch-benchmark": "git@github.com:opensearch-project/opensearch-benchmark.git",
-    "opensearch-benchmark-workloads": "git@github.com:opensearch-project/opensearch-benchmark-workloads.git"
+    "opensearch-benchmark-workloads": "git@github.com:opensearch-project/opensearch-benchmark-workloads.git",
+    "observability": "git@github.com:opensearch-project/observability.git"
   }
 }
