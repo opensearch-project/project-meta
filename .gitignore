@@ -121,3 +121,8 @@
 /observability/
 /opensearch-net/
 /opensearch-oci-object-storage/
+/dashboards-desktop/
+/logstash-input-opensearch/
+/maps/
+/opensearch-api-specification/
+/opensearch-net-abstractions/
