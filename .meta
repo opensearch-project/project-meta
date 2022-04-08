@@ -56,6 +56,11 @@
     "opensearch-benchmark-workloads": "git@github.com:opensearch-project/opensearch-benchmark-workloads.git",
     "observability": "git@github.com:opensearch-project/observability.git",
     "opensearch-net": "git@github.com:opensearch-project/opensearch-net.git",
-    "opensearch-oci-object-storage": "git@github.com:opensearch-project/opensearch-oci-object-storage.git"
+    "opensearch-oci-object-storage": "git@github.com:opensearch-project/opensearch-oci-object-storage.git",
+    "dashboards-desktop": "git@github.com:opensearch-project/dashboards-desktop.git",
+    "logstash-input-opensearch": "git@github.com:opensearch-project/logstash-input-opensearch.git",
+    "maps": "git@github.com:opensearch-project/maps.git",
+    "opensearch-api-specification": "git@github.com:opensearch-project/opensearch-api-specification.git",
+    "opensearch-net-abstractions": "git@github.com:opensearch-project/opensearch-net-abstractions.git"
   }
 }
