@@ -61,6 +61,7 @@
     "logstash-input-opensearch": "git@github.com:opensearch-project/logstash-input-opensearch.git",
     "maps": "git@github.com:opensearch-project/maps.git",
     "opensearch-api-specification": "git@github.com:opensearch-project/opensearch-api-specification.git",
-    "opensearch-net-abstractions": "git@github.com:opensearch-project/opensearch-net-abstractions.git"
+    "opensearch-net-abstractions": "git@github.com:opensearch-project/opensearch-net-abstractions.git",
+    "dashboards-anywhere": "git@github.com:opensearch-project/dashboards-anywhere.git"
   }
 }
