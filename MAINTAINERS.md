@@ -23,6 +23,10 @@ This document explains who the maintainers are (see below), what they do in this
 
 Maintainers are active and visible members of the community, and have [maintain-level permissions on a repository](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization). Use those privileges to serve the community and evolve code as follows.
 
+## OpenSearch Project Roadmap Responsibilities
+
+Maintainers have access to manage the [OpenSearch project roadmap](https://github.com/orgs/opensearch-project/projects/1) and are responsible for working with individual repo maintainers to ensure the roadmap is up to date with new planned features. They ensure a high quality bar for cards that a placed in the roadmap. They are not responsible for determining what features are built and prioritized.
+
 ### Uphold Code of Conduct
 
 Model the behavior set forward by the [Code of Conduct](CODE_OF_CONDUCT.md) and raise any violations to other maintainers and admins.
