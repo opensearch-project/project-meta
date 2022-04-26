@@ -7,6 +7,7 @@
   - [Triage Open Issues](#triage-open-issues)
   - [Be Responsive](#be-responsive)
   - [Maintain Overall Health of the Repo](#maintain-overall-health-of-the-repo)
+  - [Maintain OpenSearch Project Roadmap](#maintain-opensearch-project-roadmap)
   - [Promote Other Maintainers](#promote-other-maintainers)
   
 ## Overview
@@ -52,6 +53,10 @@ Respond to enhancement requests, and forum posts. Allocate time to reviewing and
 ### Maintain Overall Health of the Repo
 
 Keep the `main` branch at production quality at all times. Backport features as needed. Cut release branches and tags to enable future patches. 
+
+### Maintain OpenSearch Project Roadmap
+
+Maintainers have access to manage the [OpenSearch project roadmap](https://github.com/orgs/opensearch-project/projects/1) and are responsible for working with individual repo maintainers to ensure the roadmap is up to date with new planned features. They ensure a high quality bar for cards that a placed in the roadmap. They are not responsible for determining what features are built and prioritized.
 
 ### Promote Other Maintainers
 
