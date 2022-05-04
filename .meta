@@ -62,6 +62,7 @@
     "maps": "git@github.com:opensearch-project/maps.git",
     "opensearch-api-specification": "git@github.com:opensearch-project/opensearch-api-specification.git",
     "opensearch-net-abstractions": "git@github.com:opensearch-project/opensearch-net-abstractions.git",
-    "dashboards-anywhere": "git@github.com:opensearch-project/dashboards-anywhere.git"
+    "dashboards-anywhere": "git@github.com:opensearch-project/dashboards-anywhere.git",
+    "opensearch-sdk": "git@github.com:opensearch-project/opensearch-sdk.git"
   }
 }
