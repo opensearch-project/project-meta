@@ -1,7 +1,7 @@
 # OpenSearch Project Communication 
 
 - [Overview](#overview)
-- [Public Slack](#public-slack)
+- [Slack](#public-slack)
   - [Getting Started](#getting-started)
   - [Workspace Channels](#workspace-channels)
   - [Tips](#tips)
@@ -14,10 +14,10 @@ subject to the [OpenSearch Code of Conduct](CODE_OF_CONDUCT.md). Please see
 [CONTRIBUTING](CONTRIBUTING.md) if you're interested in contributing to the
 project.
 
-## Public Slack
+## Slack
 
 OpenSearch has a workspace on [Slack](https://opensearch.slack.com) to provide
-public communication channels for all people interested in OpenSearch.
+open communication channels for all people interested in OpenSearch.
 
 The following guidelines include a Getting Started for steps to register and
 setup the workspace along with tips for using the workspace. Please read through
@@ -35,10 +35,10 @@ _Join Us_
 
 _Update Profile_
 
-  * Add your interests or keywords in the “What I do” section of your profile 
-    along with your Title and Company/Organization. This is how participants 
-    can network and connect with each other by common interests. No anonymous 
-    display names are allowed.
+  * You may add your interests or keywords in the “What I do” section of your 
+    profile along with your Title and Company/Organization. This helps 
+    participants network and connect with each other by common interests. No 
+    anonymous display names are allowed.
   * Feel free to update your profile photo to something unique to you. All 
     profile photos are subject to the 
     [OpenSearch Code of Conduct](CODE_OF_CONDUCT.md) policies.
@@ -78,9 +78,9 @@ be directed to more specific channels based on the nature of the discussion):
 
 ### Tips
 
-  * Try to keep communications in the open - Where possible, try to have 
-    conversations in asynchronous formats like GitHub issues, PRs, and discussion 
-    forums. 
+  * Try to keep communications in the open - Not only does this facilitate better
+    sharing of information but back channeled discussions are not retained for
+    search among other community members.
   * Use the [OpenSearch Discussion Forum](https://forum.opensearch.org) for 
     technical support discussions or, at least, open a summary discussion on the 
     forum so useful findings can be shared with the rest of the community. 
