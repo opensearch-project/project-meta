@@ -66,6 +66,7 @@
     "opensearch-sdk": "git@github.com:opensearch-project/opensearch-sdk.git",
     "security-analytics": "git@github.com:opensearch-project/security-analytics.git",
     "opensearch-catalog": "git@github.com:opensearch-project/opensearch-catalog.git",
-    "dashboards-maps": "git@github.com:opensearch-project/dashboards-maps.git"
+    "dashboards-maps": "git@github.com:opensearch-project/dashboards-maps.git",
+    "i18n-plugin": "git@github.com:opensearch-project/i18n-plugin.git"
   }
 }
