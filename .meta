@@ -71,6 +71,7 @@
     "search-relevance": "git@github.com:opensearch-project/search-relevance.git",
     "opensearch-testcontainers": "git@github.com:opensearch-project/opensearch-testcontainers.git",
     "oui": "git@github.com:opensearch-project/oui.git",
-    "opensearch-sdk-java": "git@github.com:opensearch-project/opensearch-sdk-java.git"
+    "opensearch-sdk-java": "git@github.com:opensearch-project/opensearch-sdk-java.git",
+    "security-analytics-dashboards-plugin": "git@github.com:opensearch-project/security-analytics-dashboards-plugin.git"
   }
 }
