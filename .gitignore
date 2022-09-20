@@ -137,3 +137,7 @@
 /oui/
 /opensearch-sdk-java/
 /security-analytics-dashboards-plugin/
+/dashboards-docker-images/
+/docker-images/
+/opensearch-build-libraries/
+/ux/
