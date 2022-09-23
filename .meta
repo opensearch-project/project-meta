@@ -72,6 +72,10 @@
     "opensearch-testcontainers": "git@github.com:opensearch-project/opensearch-testcontainers.git",
     "oui": "git@github.com:opensearch-project/oui.git",
     "opensearch-sdk-java": "git@github.com:opensearch-project/opensearch-sdk-java.git",
-    "security-analytics-dashboards-plugin": "git@github.com:opensearch-project/security-analytics-dashboards-plugin.git"
+    "security-analytics-dashboards-plugin": "git@github.com:opensearch-project/security-analytics-dashboards-plugin.git",
+    "dashboards-docker-images": "git@github.com:opensearch-project/dashboards-docker-images.git",
+    "docker-images": "git@github.com:opensearch-project/docker-images.git",
+    "opensearch-build-libraries": "git@github.com:opensearch-project/opensearch-build-libraries.git",
+    "ux": "git@github.com:opensearch-project/ux.git"
   }
 }
