@@ -76,6 +76,8 @@
     "dashboards-docker-images": "git@github.com:opensearch-project/dashboards-docker-images.git",
     "docker-images": "git@github.com:opensearch-project/docker-images.git",
     "opensearch-build-libraries": "git@github.com:opensearch-project/opensearch-build-libraries.git",
-    "ux": "git@github.com:opensearch-project/ux.git"
+    "ux": "git@github.com:opensearch-project/ux.git",
+    "opensearch-hadoop": "git@github.com:opensearch-project/opensearch-hadoop.git",
+    "spring-data-opensearch": "git@github.com:opensearch-project/spring-data-opensearch.git"
   }
 }
