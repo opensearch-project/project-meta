@@ -141,3 +141,5 @@
 /docker-images/
 /opensearch-build-libraries/
 /ux/
+/opensearch-hadoop/
+/spring-data-opensearch/
