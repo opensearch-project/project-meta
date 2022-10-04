@@ -58,20 +58,26 @@ Meta stores a list of repositories in [.meta](.meta). You can bulk update this f
 
 ### Create or Update Labels in All Repos
 
-Install [ghi](https://github.com/stephencelis/ghi), e.g. `brew install ghi`.
+You can create labels in all opensearch-project repos without checking out any code.
 
 ```
-meta exec "ghi label 'backwards-compatibility' -c '#773AA8'
+for r in $(gh repo list opensearch-project --limit 100 | cut -f1); do echo $r ;  gh label create 'hacktoberfest' --description 'Global event that encourages people to contribute to open-source.' -c '#3B6BBD' --repo https://github.com/$r; done
+```
+
+For control over a list of repos, use meta.
+
+```
+meta exec "gh label create 'backwards-compatibility' -c '#773AA8'
 ```
 
 This makes it easy to create version labels.
 
 ```
-meta exec "ghi label 'untriaged' -c '#fbca04'"
-meta exec "ghi label 'v1.0.0' -c '#d4c5f9'"
-meta exec "ghi label 'v1.1.0' -c '#c5def5'"
-meta exec "ghi label 'v2.0.0' -c '#b94c47'"
-meta exec "ghi label 'patch' -c '#dd8e2c'"
+meta exec "gh label create 'untriaged' -c '#fbca04'"
+meta exec "gh label create 'v1.0.0' -c '#d4c5f9'"
+meta exec "gh label create 'v1.1.0' -c '#c5def5'"
+meta exec "gh label create 'v2.0.0' -c '#b94c47'"
+meta exec "gh label create 'patch' -c '#dd8e2c'"
 ```
 
 ### Create an Issue in All Repos
