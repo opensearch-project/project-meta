@@ -143,3 +143,6 @@
 /ux/
 /opensearch-hadoop/
 /spring-data-opensearch/
+/neural-search/
+/simple-schema/
+/terraform-provider-opensearch/

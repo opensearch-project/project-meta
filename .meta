@@ -78,6 +78,9 @@
     "opensearch-build-libraries": "git@github.com:opensearch-project/opensearch-build-libraries.git",
     "ux": "git@github.com:opensearch-project/ux.git",
     "opensearch-hadoop": "git@github.com:opensearch-project/opensearch-hadoop.git",
-    "spring-data-opensearch": "git@github.com:opensearch-project/spring-data-opensearch.git"
+    "spring-data-opensearch": "git@github.com:opensearch-project/spring-data-opensearch.git",
+    "neural-search": "git@github.com:opensearch-project/neural-search.git",
+    "simple-schema": "git@github.com:opensearch-project/simple-schema.git",
+    "terraform-provider-opensearch": "git@github.com:opensearch-project/terraform-provider-opensearch.git"
   }
 }
