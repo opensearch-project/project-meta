@@ -25,7 +25,7 @@ jobs:
           GITHUB_TOKEN: ${{ steps.github_app_token.outputs.token }}      
         run: |
           npm install -g meta
-          ./scripts/update.sh
+          ./bin/check-repos.sh
           echo REPOS_ADDED=$(git diff --unified=0 .gitignore | grep '+/' | cut -f2 -d'/' | paste -sd ',' - | sed "s/,/, /g" | sed 's/\(.*\),/\1 and/') >> $GITHUB_ENV
 
       - name: Create Pull Request

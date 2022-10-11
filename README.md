@@ -53,7 +53,7 @@ meta project import new-repo git@github.com:opensearch-project/new-repo.git
 Meta stores a list of repositories in [.meta](.meta). You can bulk update this file from the opensearch-project org as follows.
 
 ```
-./scripts/update.sh
+./bin/check-repos.sh
 ```
 
 ### Create or Update Labels in All Repos
