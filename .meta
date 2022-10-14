@@ -81,6 +81,7 @@
     "spring-data-opensearch": "git@github.com:opensearch-project/spring-data-opensearch.git",
     "neural-search": "git@github.com:opensearch-project/neural-search.git",
     "simple-schema": "git@github.com:opensearch-project/simple-schema.git",
-    "terraform-provider-opensearch": "git@github.com:opensearch-project/terraform-provider-opensearch.git"
+    "terraform-provider-opensearch": "git@github.com:opensearch-project/terraform-provider-opensearch.git",
+    "project-tools": "git@github.com:opensearch-project/project-tools.git"
   }
 }
