@@ -83,6 +83,7 @@
     "simple-schema": "git@github.com:opensearch-project/simple-schema.git",
     "terraform-provider-opensearch": "git@github.com:opensearch-project/terraform-provider-opensearch.git",
     "project-tools": "git@github.com:opensearch-project/project-tools.git",
-    "dashboards-search-relevance": "git@github.com:opensearch-project/dashboards-search-relevance.git"
+    "dashboards-search-relevance": "git@github.com:opensearch-project/dashboards-search-relevance.git",
+    "opensearch-py-ml": "git@github.com:opensearch-project/opensearch-py-ml.git"
   }
 }
