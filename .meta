@@ -87,6 +87,7 @@
     "opensearch-py-ml": "git@github.com:opensearch-project/opensearch-py-ml.git",
     "opensearch-cluster-cdk": "git@github.com:opensearch-project/opensearch-cluster-cdk.git",
     "oui-docs-cdk": "git@github.com:opensearch-project/oui-docs-cdk.git",
-    "search-processor": "git@github.com:opensearch-project/search-processor.git"
+    "search-processor": "git@github.com:opensearch-project/search-processor.git",
+    "opensearch-migrations": "git@github.com:opensearch-project/opensearch-migrations.git"
   }
 }
