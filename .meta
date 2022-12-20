@@ -88,6 +88,11 @@
     "opensearch-cluster-cdk": "git@github.com:opensearch-project/opensearch-cluster-cdk.git",
     "oui-docs-cdk": "git@github.com:opensearch-project/oui-docs-cdk.git",
     "search-processor": "git@github.com:opensearch-project/search-processor.git",
-    "opensearch-migrations": "git@github.com:opensearch-project/opensearch-migrations.git"
+    "opensearch-migrations": "git@github.com:opensearch-project/opensearch-migrations.git",
+    "dashboards-query-workbench": "git@github.com:opensearch-project/dashboards-query-workbench.git",
+    "reporting": "git@github.com:opensearch-project/reporting.git",
+    "sql-cli": "git@github.com:opensearch-project/sql-cli.git",
+    "sql-jdbc": "git@github.com:opensearch-project/sql-jdbc.git",
+    "sql-odbc": "git@github.com:opensearch-project/sql-odbc.git"
   }
 }
