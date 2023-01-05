@@ -10,6 +10,7 @@
   - [Create an Issue in All Repos](#create-an-issue-in-all-repos)
   - [Find Labeled Issues](#find-labeled-issues)
   - [Check Tags](#check-tags)
+  - [Make a Change in Many Repos](#make-a-change-in-many-repos)
 - [Contributing](#contributing)
 - [Security](#security)
 - [Code of Conduct](#code-of-conduct)
@@ -115,6 +116,51 @@ Or using local tags.
 ```
 meta git pull --tags
 meta exec "git tag | grep -w '^1.0.0$' || echo missing"
+```
+
+### Make a Change in Many Repos
+
+In [.github#21](https://github.com/opensearch-project/.github/issues/121) we needed to update all MAINTAINERS.md files.
+
+Check out the source code in all the repos.
+
+```
+meta git update
+```
+
+Ensure you have a fork for your code. Choose "no" when promoted to add a remote.
+
+```
+meta exec "gh repo fork"
+```
+
+Ensure remotes to your fork. Replace `your-github-username` with your GitHub username.
+
+```
+meta exec "git remote get-url origin | sed s/opensearch-project/your-github-username/g | xargs git remote add your-github-username"
+```
+
+Make code changes as needed. In our example, we used VSCode, opened all files called MAINTAINERS.md (using a open all files extension) and made bulk search/replace edits.
+
+Create a new branch with the changes and commit the code. Replace `your-github-username` with your GitHub username.
+
+```
+meta exec "git checkout -b updated-maintainers"
+meta exec "git add --all"
+meta exec "git commit -s -m 'Updated MAINTAINERS.md to match recommended opensearch-project format.'"
+meta exec "git push your-github-username updated-maintainers"
+```
+
+Set the default repo.
+
+```
+meta exec "git remote get-url origin | sed s/git@github.com\://g | sed s/.git//g | xargs gh repo set-default"
+```
+
+Make pull requests. Because you are creating many issues make sure to reference a parent issue in the body so that they can be easily linked together. Pick your fork when asked where to push the code every time and examine the first couple of pull requests for correctness before proceeding with the rest.
+
+```
+meta exec "gh pr create --title 'Updated MAINTAINERS.md format.' --body='Coming from https://github.com/opensearch-project/.github/issues/121, updated MAINTAINERS.md to match opensearch-project recommended format.'"
 ```
 
 ## Contributing
