@@ -94,6 +94,10 @@
     "sql-cli": "git@github.com:opensearch-project/sql-cli.git",
     "sql-jdbc": "git@github.com:opensearch-project/sql-jdbc.git",
     "sql-odbc": "git@github.com:opensearch-project/sql-odbc.git",
-    "dashboards-observability": "git@github.com:opensearch-project/dashboards-observability.git"
+    "dashboards-observability": "git@github.com:opensearch-project/dashboards-observability.git",
+    "dashboards-notifications": "git@github.com:opensearch-project/dashboards-notifications.git",
+    "dashboards-reporting": "git@github.com:opensearch-project/dashboards-reporting.git",
+    "opensearch-dashboards-sdk-js": "git@github.com:opensearch-project/opensearch-dashboards-sdk-js.git",
+    "reporting-cli": "git@github.com:opensearch-project/reporting-cli.git"
   }
 }
