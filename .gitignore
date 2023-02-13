@@ -159,3 +159,7 @@
 /sql-jdbc/
 /sql-odbc/
 /dashboards-observability/
+/dashboards-notifications/
+/dashboards-reporting/
+/opensearch-dashboards-sdk-js/
+/reporting-cli/
