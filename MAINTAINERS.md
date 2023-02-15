@@ -9,4 +9,4 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Andrew Ross              | [andrross](https://github.com/andrross)   | Amazon      |
 | Daniel "dB." Doubrovkine | [dblock](https://github.com/dblock)       | Amazon      |
 | Peter Nied               | [peternied](https://github.com/peternied) | Amazon      |
-| Vacha Shah               | [dblock](https://github.com/dblock)       | Amazon      |
+| Vacha Shah               | [VachaShah](https://github.com/VachaShah) | Amazon      |
