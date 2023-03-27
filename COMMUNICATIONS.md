@@ -8,9 +8,9 @@
 
 ## Overview
 
-The purpose of this document is to information regarding the communication 
-channels for the OpenSearch Project. All communication is subject to the 
-[OpenSearch Code of Conduct](CODE_OF_CONDUCT.md). Please see 
+The purpose of this document is to provide information regarding the 
+communication channels for the OpenSearch Project. All communication is 
+subject to the [OpenSearch Code of Conduct](CODE_OF_CONDUCT.md). Please see 
 [CONTRIBUTING](CONTRIBUTING.md) if you're interested in contributing to the
 project.
 
@@ -49,6 +49,9 @@ _Update Profile_
 After you join OpenSearch workspace you will be automatically added to the 
 following channels:
 
+  * **#announcements ** - Read only channel for overall project announcements. 
+    This may include critical security issues, releases, milestones or general 
+    information related to the OpenSearch Project community.
   * **#general** - a channel for asking general questions. Based on the question 
     or discussion users will mostly likely be directed to more specific 
     channels based on the topics of interest.
@@ -68,10 +71,6 @@ be directed to more specific channels based on the nature of the discussion):
     discussions about dashboards can be asked here. 
   * **#infra** - primary channel for infra. General discussions, questions, or infra 
     requests can be posted here.
-  * **#{project}-build** - dedicated channels where build bots will post failing CI/CD 
-    builds for test failure triage and bug fixes.
-  * **#maintainers** - a private maintainers channel to discuss new maintainers, and 
-    project sensitive topics.
 
 ### Tips
 
