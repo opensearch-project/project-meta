@@ -95,6 +95,7 @@
     "dashboards-reporting": "git@github.com:opensearch-project/dashboards-reporting.git",
     "opensearch-dashboards-sdk-js": "git@github.com:opensearch-project/opensearch-dashboards-sdk-js.git",
     "reporting-cli": "git@github.com:opensearch-project/reporting-cli.git",
-    "ml-commons-dashboards": "git@github.com:opensearch-project/ml-commons-dashboards.git"
+    "ml-commons-dashboards": "git@github.com:opensearch-project/ml-commons-dashboards.git",
+    "dashboards-i18n": "git@github.com:opensearch-project/dashboards-i18n.git"
   }
 }
