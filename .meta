@@ -97,6 +97,8 @@
     "reporting-cli": "git@github.com:opensearch-project/reporting-cli.git",
     "ml-commons-dashboards": "git@github.com:opensearch-project/ml-commons-dashboards.git",
     "dashboards-i18n": "git@github.com:opensearch-project/dashboards-i18n.git",
-    "performance-analyzer-commons": "git@github.com:opensearch-project/performance-analyzer-commons.git"
+    "performance-analyzer-commons": "git@github.com:opensearch-project/performance-analyzer-commons.git",
+    "traffic-comparator": "git@github.com:opensearch-project/traffic-comparator.git",
+    "traffic-replayer": "git@github.com:opensearch-project/traffic-replayer.git"
   }
 }
