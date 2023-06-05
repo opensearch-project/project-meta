@@ -99,6 +99,7 @@
     "dashboards-i18n": "git@github.com:opensearch-project/dashboards-i18n.git",
     "performance-analyzer-commons": "git@github.com:opensearch-project/performance-analyzer-commons.git",
     "traffic-comparator": "git@github.com:opensearch-project/traffic-comparator.git",
-    "traffic-replayer": "git@github.com:opensearch-project/traffic-replayer.git"
+    "traffic-replayer": "git@github.com:opensearch-project/traffic-replayer.git",
+    "opentelemetry-demo": "git@github.com:opensearch-project/opentelemetry-demo.git"
   }
 }
