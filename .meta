@@ -100,6 +100,7 @@
     "performance-analyzer-commons": "git@github.com:opensearch-project/performance-analyzer-commons.git",
     "traffic-comparator": "git@github.com:opensearch-project/traffic-comparator.git",
     "traffic-replayer": "git@github.com:opensearch-project/traffic-replayer.git",
-    "opentelemetry-demo": "git@github.com:opensearch-project/opentelemetry-demo.git"
+    "opentelemetry-demo": "git@github.com:opensearch-project/opentelemetry-demo.git",
+    "opensearch-ruby-aws-sigv4": "git@github.com:opensearch-project/opensearch-ruby-aws-sigv4.git"
   }
 }
