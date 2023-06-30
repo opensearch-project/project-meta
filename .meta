@@ -102,6 +102,8 @@
     "traffic-replayer": "git@github.com:opensearch-project/traffic-replayer.git",
     "opentelemetry-demo": "git@github.com:opensearch-project/opentelemetry-demo.git",
     "opensearch-ruby-aws-sigv4": "git@github.com:opensearch-project/opensearch-ruby-aws-sigv4.git",
-    "opensearch-learning-to-rank-base": "git@github.com:opensearch-project/opensearch-learning-to-rank-base.git"
+    "opensearch-learning-to-rank-base": "git@github.com:opensearch-project/opensearch-learning-to-rank-base.git",
+    "data-prepper-documentation-website": "git@github.com:opensearch-project/data-prepper-documentation-website.git",
+    "telemetry-collector": "git@github.com:opensearch-project/telemetry-collector.git"
   }
 }
