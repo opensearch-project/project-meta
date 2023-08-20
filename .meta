@@ -105,6 +105,7 @@
     "opensearch-learning-to-rank-base": "git@github.com:opensearch-project/opensearch-learning-to-rank-base.git",
     "data-prepper-documentation-website": "git@github.com:opensearch-project/data-prepper-documentation-website.git",
     "telemetry-collector": "git@github.com:opensearch-project/telemetry-collector.git",
-    "opensearch-spark": "git@github.com:opensearch-project/opensearch-spark.git"
+    "opensearch-spark": "git@github.com:opensearch-project/opensearch-spark.git",
+    "opensearch-ai-flow-framework": "git@github.com:opensearch-project/opensearch-ai-flow-framework.git"
   }
 }
