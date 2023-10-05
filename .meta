@@ -110,6 +110,7 @@
     "opensearch-ai-flow-dashboards": "git@github.com:opensearch-project/opensearch-ai-flow-dashboards.git",
     "opensearch-sdk-py": "git@github.com:opensearch-project/opensearch-sdk-py.git",
     "custom-codecs": "git@github.com:opensearch-project/custom-codecs.git",
-    "demos": "git@github.com:opensearch-project/demos.git"
+    "demos": "git@github.com:opensearch-project/demos.git",
+    "community": "git@github.com:opensearch-project/community.git"
   }
 }
