@@ -106,8 +106,6 @@
     "data-prepper-documentation-website": "git@github.com:opensearch-project/data-prepper-documentation-website.git",
     "telemetry-collector": "git@github.com:opensearch-project/telemetry-collector.git",
     "opensearch-spark": "git@github.com:opensearch-project/opensearch-spark.git",
-    "opensearch-ai-flow-framework": "git@github.com:opensearch-project/opensearch-ai-flow-framework.git",
-    "opensearch-ai-flow-dashboards": "git@github.com:opensearch-project/opensearch-ai-flow-dashboards.git",
     "opensearch-sdk-py": "git@github.com:opensearch-project/opensearch-sdk-py.git",
     "custom-codecs": "git@github.com:opensearch-project/custom-codecs.git",
     "demos": "git@github.com:opensearch-project/demos.git",
