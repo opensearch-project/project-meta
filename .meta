@@ -111,6 +111,7 @@
     "demos": "git@github.com:opensearch-project/demos.git",
     "community": "git@github.com:opensearch-project/community.git",
     "dashboards-flow-framework": "git@github.com:opensearch-project/dashboards-flow-framework.git",
-    "flow-framework": "git@github.com:opensearch-project/flow-framework.git"
+    "flow-framework": "git@github.com:opensearch-project/flow-framework.git",
+    "dashboards-assistant": "git@github.com:opensearch-project/dashboards-assistant.git"
   }
 }
