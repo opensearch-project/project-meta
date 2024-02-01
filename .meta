@@ -114,6 +114,8 @@
     "flow-framework": "git@github.com:opensearch-project/flow-framework.git",
     "dashboards-assistant": "git@github.com:opensearch-project/dashboards-assistant.git",
     "opensearch-k8s-operator": "git@github.com:opensearch-project/opensearch-k8s-operator.git",
-    "skills": "git@github.com:opensearch-project/skills.git"
+    "skills": "git@github.com:opensearch-project/skills.git",
+    "opensearch-research": "git@github.com:opensearch-project/opensearch-research.git",
+    "skills-eval": "git@github.com:opensearch-project/skills-eval.git"
   }
 }
