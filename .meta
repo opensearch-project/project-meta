@@ -116,6 +116,10 @@
     "opensearch-k8s-operator": "git@github.com:opensearch-project/opensearch-k8s-operator.git",
     "skills": "git@github.com:opensearch-project/skills.git",
     "opensearch-research": "git@github.com:opensearch-project/opensearch-research.git",
-    "skills-eval": "git@github.com:opensearch-project/skills-eval.git"
+    "skills-eval": "git@github.com:opensearch-project/skills-eval.git",
+    "opensearch-metrics": "git@github.com:opensearch-project/opensearch-metrics.git",
+    "query-insights": "git@github.com:opensearch-project/query-insights.git",
+    "query-insights-dashboards": "git@github.com:opensearch-project/query-insights-dashboards.git",
+    "user-behavior-insights": "git@github.com:opensearch-project/user-behavior-insights.git"
   }
 }
