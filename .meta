@@ -120,6 +120,7 @@
     "opensearch-metrics": "git@github.com:opensearch-project/opensearch-metrics.git",
     "query-insights": "git@github.com:opensearch-project/query-insights.git",
     "query-insights-dashboards": "git@github.com:opensearch-project/query-insights-dashboards.git",
-    "user-behavior-insights": "git@github.com:opensearch-project/user-behavior-insights.git"
+    "user-behavior-insights": "git@github.com:opensearch-project/user-behavior-insights.git",
+    "opensearch-system-templates": "git@github.com:opensearch-project/opensearch-system-templates.git"
   }
 }
