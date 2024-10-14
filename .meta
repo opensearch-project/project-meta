@@ -123,6 +123,7 @@
     "user-behavior-insights": "git@github.com:opensearch-project/user-behavior-insights.git",
     "opensearch-system-templates": "git@github.com:opensearch-project/opensearch-system-templates.git",
     "foundation-website": "git@github.com:opensearch-project/foundation-website.git",
-    "automation-app": "git@github.com:opensearch-project/automation-app.git"
+    "automation-app": "git@github.com:opensearch-project/automation-app.git",
+    "technical-steering": "git@github.com:opensearch-project/technical-steering.git"
   }
 }
