@@ -124,6 +124,7 @@
     "opensearch-system-templates": "git@github.com:opensearch-project/opensearch-system-templates.git",
     "foundation-website": "git@github.com:opensearch-project/foundation-website.git",
     "automation-app": "git@github.com:opensearch-project/automation-app.git",
-    "technical-steering": "git@github.com:opensearch-project/technical-steering.git"
+    "technical-steering": "git@github.com:opensearch-project/technical-steering.git",
+    "opensearch-remote-metadata-sdk": "git@github.com:opensearch-project/opensearch-remote-metadata-sdk.git"
   }
 }
