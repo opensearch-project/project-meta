@@ -126,6 +126,8 @@
     "automation-app": "git@github.com:opensearch-project/automation-app.git",
     "technical-steering": "git@github.com:opensearch-project/technical-steering.git",
     "opensearch-remote-metadata-sdk": "git@github.com:opensearch-project/opensearch-remote-metadata-sdk.git",
-    "opensearch-traffic-gateway": "git@github.com:opensearch-project/opensearch-traffic-gateway.git"
+    "opensearch-traffic-gateway": "git@github.com:opensearch-project/opensearch-traffic-gateway.git",
+    "opensearch-storage-encryption": "git@github.com:opensearch-project/opensearch-storage-encryption.git",
+    "remote-vector-index-builder": "git@github.com:opensearch-project/remote-vector-index-builder.git"
   }
 }
