@@ -197,5 +197,5 @@
 /opensearch-traffic-gateway/
 /opensearch-storage-encryption/
 /remote-vector-index-builder/
-/jVector/
+/opensearch-jvector/
 /opensearch-protobufs/
