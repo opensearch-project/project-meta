@@ -130,6 +130,7 @@
     "opensearch-storage-encryption": "git@github.com:opensearch-project/opensearch-storage-encryption.git",
     "remote-vector-index-builder": "git@github.com:opensearch-project/remote-vector-index-builder.git",
     "jVector": "git@github.com:opensearch-project/jVector.git",
-    "opensearch-protobufs": "git@github.com:opensearch-project/opensearch-protobufs.git"
+    "opensearch-protobufs": "git@github.com:opensearch-project/opensearch-protobufs.git",
+    "opensearch-jvector": "git@github.com:opensearch-project/opensearch-jvector.git"
   }
 }
