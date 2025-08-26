@@ -201,3 +201,7 @@
 /opensearch-protobufs/
 /opensearch-mcp-server-py/
 /search-relevance/
+/cluster-etcd/
+/dashboards-investigation/
+/opensearch-prometheus-exporter/
+/oscar-ai-bot/

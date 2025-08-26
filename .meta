@@ -132,6 +132,10 @@
     "opensearch-jvector": "git@github.com:opensearch-project/opensearch-jvector.git",
     "opensearch-protobufs": "git@github.com:opensearch-project/opensearch-protobufs.git",
     "opensearch-mcp-server-py": "git@github.com:opensearch-project/opensearch-mcp-server-py.git",
-    "search-relevance": "git@github.com:opensearch-project/search-relevance.git"
+    "search-relevance": "git@github.com:opensearch-project/search-relevance.git",
+    "cluster-etcd": "git@github.com:opensearch-project/cluster-etcd.git",
+    "dashboards-investigation": "git@github.com:opensearch-project/dashboards-investigation.git",
+    "opensearch-prometheus-exporter": "git@github.com:opensearch-project/opensearch-prometheus-exporter.git",
+    "oscar-ai-bot": "git@github.com:opensearch-project/oscar-ai-bot.git"
   }
 }
