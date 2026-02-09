@@ -137,8 +137,8 @@
     "dashboards-investigation": "git@github.com:opensearch-project/dashboards-investigation.git",
     "opensearch-prometheus-exporter": "git@github.com:opensearch-project/opensearch-prometheus-exporter.git",
     "oscar-ai-bot": "git@github.com:opensearch-project/oscar-ai-bot.git",
-    "agentops": "git@github.com:opensearch-project/agentops.git",
-    "dashboards-traces": "git@github.com:opensearch-project/dashboards-traces.git",
+    "observability-stack": "git@github.com:opensearch-project/observability-stack.git",
+    "agent-health": "git@github.com:opensearch-project/agent-health.git",
     "jenkins-gitops": "git@github.com:opensearch-project/jenkins-gitops.git",
     "time-series-db": "git@github.com:opensearch-project/time-series-db.git"
   }
