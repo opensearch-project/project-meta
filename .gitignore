@@ -205,7 +205,7 @@
 /dashboards-investigation/
 /opensearch-prometheus-exporter/
 /oscar-ai-bot/
-/agentops/
-/dashboards-traces/
+/observability-stack/
+/agent-health/
 /jenkins-gitops/
 /time-series-db/
