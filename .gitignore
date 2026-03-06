@@ -209,3 +209,8 @@
 /agent-health/
 /jenkins-gitops/
 /time-series-db/
+/agent-trace-eval-scheduler/
+/genai-observability-sdk-py/
+/neural-sparse-cpp/
+/opensearch-agent-server/
+/opensearch-launchpad/

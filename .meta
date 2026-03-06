@@ -140,6 +140,11 @@
     "observability-stack": "git@github.com:opensearch-project/observability-stack.git",
     "agent-health": "git@github.com:opensearch-project/agent-health.git",
     "jenkins-gitops": "git@github.com:opensearch-project/jenkins-gitops.git",
-    "time-series-db": "git@github.com:opensearch-project/time-series-db.git"
+    "time-series-db": "git@github.com:opensearch-project/time-series-db.git",
+    "agent-trace-eval-scheduler": "git@github.com:opensearch-project/agent-trace-eval-scheduler.git",
+    "genai-observability-sdk-py": "git@github.com:opensearch-project/genai-observability-sdk-py.git",
+    "neural-sparse-cpp": "git@github.com:opensearch-project/neural-sparse-cpp.git",
+    "opensearch-agent-server": "git@github.com:opensearch-project/opensearch-agent-server.git",
+    "opensearch-launchpad": "git@github.com:opensearch-project/opensearch-launchpad.git"
   }
 }
