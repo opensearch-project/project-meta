@@ -214,3 +214,6 @@
 /neural-sparse-cpp/
 /opensearch-agent-server/
 /opensearch-launchpad/
+/dashboards-job-scheduler/
+/genai-observability-sdk-ts/
+/opensearch-agent-skills/
