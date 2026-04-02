@@ -145,6 +145,9 @@
     "genai-observability-sdk-py": "git@github.com:opensearch-project/genai-observability-sdk-py.git",
     "neural-sparse-cpp": "git@github.com:opensearch-project/neural-sparse-cpp.git",
     "opensearch-agent-server": "git@github.com:opensearch-project/opensearch-agent-server.git",
-    "opensearch-launchpad": "git@github.com:opensearch-project/opensearch-launchpad.git"
+    "opensearch-launchpad": "git@github.com:opensearch-project/opensearch-launchpad.git",
+    "dashboards-job-scheduler": "git@github.com:opensearch-project/dashboards-job-scheduler.git",
+    "genai-observability-sdk-ts": "git@github.com:opensearch-project/genai-observability-sdk-ts.git",
+    "opensearch-agent-skills": "git@github.com:opensearch-project/opensearch-agent-skills.git"
   }
 }
