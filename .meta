@@ -148,6 +148,7 @@
     "opensearch-launchpad": "git@github.com:opensearch-project/opensearch-launchpad.git",
     "dashboards-job-scheduler": "git@github.com:opensearch-project/dashboards-job-scheduler.git",
     "genai-observability-sdk-ts": "git@github.com:opensearch-project/genai-observability-sdk-ts.git",
-    "opensearch-agent-skills": "git@github.com:opensearch-project/opensearch-agent-skills.git"
+    "opensearch-agent-skills": "git@github.com:opensearch-project/opensearch-agent-skills.git",
+    "opensearch-flux": "git@github.com:opensearch-project/opensearch-flux.git"
   }
 }
